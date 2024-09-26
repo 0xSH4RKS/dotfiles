@@ -8,6 +8,7 @@ with pkgs;
 
   # utils
   terminator
+  xfce.thunar
 
   # browsers
   firefox
@@ -18,4 +19,9 @@ with pkgs;
   xautolock
   betterlockscreen
   imagemagick
+  lxappearance
+  gtk_engines
+  
+  ## themes
+  material-black-colors
 ]

@@ -5,7 +5,7 @@
   [[default]]
     background_darkness = 0.85
     background_type = transparent
-    font = Iosevka Nerd Font 13
+    font = Iosevka 13
     palette = "#000000:#cd0000:#00cd00:#cdcd00:#2afb0a:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
     use_system_font = False
     title_transmit_bg_color = "#2afb0a"

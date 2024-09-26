@@ -4,9 +4,6 @@ sudo mv /etc/nixos /etc/nixos.backup
 # symlink dotfiles
 sudo ln -s $HOME/dotfiles/nixos /etc/nixos
 
-# rebuild
-sudo nixos-rebuild switch
-
 # other config files
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/terminator
@@ -18,3 +15,6 @@ ln -s ~/dotfiles/fehbg ~/.fehbg
 
 # betterlockscreen
 betterlockscreen -u $HOME/.wallpaper/easi_wallpaper.png
+
+# rebuild
+sudo nixos-rebuild switch

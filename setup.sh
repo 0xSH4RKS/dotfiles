@@ -2,6 +2,7 @@
 sudo mv /etc/nixos /etc/nixos.backup
 
 # symlink dotfiles
+sudo cp /etc/nixos/hardware-configuration.nix $HOME/dotfiles/nixos/
 sudo ln -s $HOME/dotfiles/nixos /etc/nixos
 
 # other config files

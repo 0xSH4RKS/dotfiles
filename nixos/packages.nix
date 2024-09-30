@@ -10,6 +10,7 @@ with pkgs;
   terminator
   xfce.thunar
   open-vm-tools
+  arandr
 
   # browsers
   firefox

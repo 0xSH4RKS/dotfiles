@@ -9,6 +9,7 @@ with pkgs;
   # utils
   terminator
   xfce.thunar
+  open-vm-tools
 
   # browsers
   firefox

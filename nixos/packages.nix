@@ -23,6 +23,7 @@ with pkgs;
   imagemagick
   lxappearance
   gtk_engines
+  iosevka
   
   ## themes
   material-black-colors

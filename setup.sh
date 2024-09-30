@@ -8,6 +8,7 @@ sudo ln -s $HOME/dotfiles/nixos /etc/nixos
 # other config files
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/terminator
+mkdir -p ~/.wallpaper/
 
 ln -s ~/dotfiles/i3/config ~/.config/i3/config
 ln -s ~/dotfiles/terminator/config ~/.config/terminator/config

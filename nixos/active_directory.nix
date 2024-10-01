@@ -1,4 +1,4 @@
-{ pkgs }:
+{ pkgs, ... }:
 
 with pkgs;
 
@@ -15,12 +15,13 @@ with pkgs;
   arsenal
   crowbar
   enum4linux-ng
-  pkgs.python312Packages.impacket
   ipmitool
   kerbrute
-  python312Packages.ldapdomaindump
-  python312Packages.lsassy
   mitm6
-  python312Packages.pywerview
-  
+
+  # Unstable Python 3.12 packages
+  (import <nixos-unstable> { inherit config; }).python312Packages.impacket
+  (import <nixos-unstable> { inherit config; }).python312Packages.ldapdomaindump
+  (import <nixos-unstable> { inherit config; }).python312Packages.lsassy
+  (import <nixos-unstable> { inherit config; }).python312Packages.pywerview
 ]

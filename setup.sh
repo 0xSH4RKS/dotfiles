@@ -17,6 +17,11 @@ ln -s ~/dotfiles/i3/config ~/.config/i3/config
 ln -s ~/dotfiles/terminator/config ~/.config/terminator/config
 ln -s ~/dotfiles/fehbg ~/.fehbg
 
+# add unstable channel for some bleeding edge packages
+sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos-unstable
+sudo nix-channel --update
+
+
 # rebuild
 sudo nixos-rebuild switch
 
